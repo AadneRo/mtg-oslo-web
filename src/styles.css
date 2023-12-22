@@ -1,4 +1,58 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: #282928;
+}
+
+.header {
+  background-color: #444544;
+  color: #282928;
+  text-shadow:
+    1px 0 0 #9e9e9e,
+    0 -1px 0 #dbdbdb,
+    0 1px 0 #dbdbdb,
+    -1px 0 0 #dbdbdb;
+
+  padding: 5rem 0;
+
+  width: 100%;
+  height: auto;
+}
+
+.banner-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.banner {
+  border: 1px solif black;
+  border-radius: 1rem;
+  padding: 3px;
+}
+
+.calender-placeholder {
+  height: 40rem;
+  width: 50rem;
+  background-color: green;
+  margin: auto;
+}
+
+.mtg-color-blue {
+  background-color: rgb(178, 205, 233);
+}
+.mtg-color-white {
+  background-color: rgb(250, 237, 205);
+}
+.mtg-color-black {
+  background-color: rgb(166, 157, 155);
+}
+.mtg-color-red {
+  background-color: rgb(234, 159, 129);
+}
+.mtg-color-green {
+  background-color: rgb(188, 213, 192);
 }
