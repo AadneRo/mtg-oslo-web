@@ -1,3 +1,9 @@
+import Header from "../components/Header";
+import Banner from "../components/Banner";
+import Footer from "../components/Footer";
+
+import "../styles.css";
+
 function MainPage() {
   return (
     <div className="main-page">
@@ -10,19 +16,13 @@ function MainPage() {
         <Banner color="mtg-color-green" />
       </div>
 
-      <div className="calender-container">
-        <Calendar />
-      </div>
-
       <Footer />
     </div>
   );
 }
 
 export default MainPage;
-
-
-  </div>
+     </div>
 
       <Footer />
     </div>
