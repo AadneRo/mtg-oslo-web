@@ -1,5 +1,8 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
+import Calendar from "./components/Calendar";
+import Footer from "./components/Footer";
+
 import "./styles.css";
 
 export default function App() {
@@ -14,7 +17,11 @@ export default function App() {
         <Banner color="mtg-color-green" />
       </div>
 
-      <div className="calender-placeholder"></div>
+      <div className="calender-container">
+        <Calendar />
+      </div>
+
+      <Footer />
     </div>
   );
 }
