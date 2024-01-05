@@ -1,6 +1,9 @@
-.body {
-  margin: 0;
-  padding: 0;
+:root {
+  --background-color: rgb(255, 255, 255);
+  --primary-color: rgb(229, 232, 182);
+  --secondary-color: rgb(180, 196, 174);
+  --tertiary-color: rgb(162, 171, 171);
+  --quaternary-color: rgb(125, 134, 156);
 }
 
 .App {
@@ -9,11 +12,11 @@
   width: 100%;
   height: 100%;
 
-  background-color: #282928;
+  background-color: var(--background-color);
 }
 
 .header {
-  background-color: #444544;
+  background-color: var(--primary-color);
   color: #282928;
   text-shadow:
     1px 0 0 #9e9e9e,
